@@ -1,0 +1,111 @@
+.container{
+    margin-top: 10vh;
+    margin-left: 24vw;
+    max-width: 70vw;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.frontpage-container{
+  margin-top: 10vh;
+  margin-left: 19rem!important;
+  max-width: 70vw;
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-group{
+    margin-bottom:30px;
+}
+
+.description {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.375rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+body {
+    background-color: #fbfbfb;
+  }
+  
+  nav {
+    background-color: #fbfbfb !important;
+}
+
+#main-navbar{
+    background-color: #fbfbfb !important; 
+}
+
+  /* Sidebar */
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    padding: 58px 0 0; /* Height of navbar */
+    width: 180px;
+    z-index: 600;
+  }
+  
+  .sidebar .active {
+    border-radius: 5px;
+  }
+  
+  .sidebar-sticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: 0.5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+
+  .list-group-item {
+    background-color: #fbfbfb !important;
+    border: none;
+  }
+
+  .primary-button{
+    margin-top: -10vh;
+    margin-left: 19rem!important;
+    position: absolute;
+    z-index: 601;
+  }
+
+  .row {
+    margin-top: 20vh;
+    margin-left: 19rem!important;
+  }
+
+  .card-body {
+    padding: 30px 20px 30px 20px;
+}
+
+.card {
+  height: 30vh;
+}
+
+.frontpage-projets{
+  padding-bottom: 10px;
+}
+
+.notlink {
+  text-decoration: none;
+  color:black;
+  width: 33%;
+}
+
+.headlineTask {
+  margin-top: 2vh;
+}
